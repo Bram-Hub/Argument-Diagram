@@ -9,6 +9,9 @@ import { evaluateArgument } from "./menu/EvaluateArgument.js";
 import { findArguments } from "./menu/CleanUp/AutomaticCleanUp.js";
 import { createLink } from "./tools/LinkButton.js";
 import { initializeContainerDrag } from "./util.js";
+
+console.log = function() {}
+
 const claimImage = new Image();
 claimImage.src = "public/src/img/Claim.jpg";
 initializeContainerDrag('paper-wrapper');

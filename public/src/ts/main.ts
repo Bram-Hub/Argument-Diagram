@@ -18,6 +18,7 @@ import { createLink, selected_links } from "./tools/LinkButton.js";
 import { selected_element } from "./tools/ManageTools.js";
 import { initializeContainerDrag } from "./util.js";
 
+console.log = function() {}
 const claimImage = new Image();
 claimImage.src = "public/src/img/Claim.jpg";
 
